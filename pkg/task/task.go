@@ -7,6 +7,7 @@ import (
 	"github.com/google/uuid"
 )
 
+// Task is the job submitted by the Manager to the Worker
 type Task struct {
 	ID            uuid.UUID
 	Name          string

@@ -8,6 +8,7 @@ import (
 	"github.com/google/uuid"
 )
 
+// Responsible for managing the task
 type Worker struct {
 	Name      string
 	Queue     queue.Queue
