@@ -1,7 +1,7 @@
 package main
 
-import "runionow/gork/pkg/manager"
+import "fmt"
 
 func main() {
-	manager.Manager()
+	fmt.Println("Decide how the customer interacts with code")
 }
